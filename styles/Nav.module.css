@@ -1,0 +1,31 @@
+.nav {
+  background-color: rgb(249, 226, 196);
+  height: 40px;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.nav ul li {
+  height: 100%;
+  min-width: 100px;
+  display: flex;
+
+}
+.nav ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em;
+  font-weight: bold;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
+.nav ul li a:hover {
+  background-color: rgb(250, 240, 228);
+  color: black;
+}
